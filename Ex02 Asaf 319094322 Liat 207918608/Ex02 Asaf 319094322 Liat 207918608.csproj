@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44E9F4F2-B97D-4E6D-AC39-1CFAA2AD7C09}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Ex02_Asaf_319094322_Liat_207918608</RootNamespace>
+    <AssemblyName>Ex02 Asaf 319094322 Liat 207918608</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Adapters\ConsoleUtilsAdapter.cs" />
+    <Compile Include="Builders\BoardBuilder.cs" />
+    <Compile Include="Builders\GameBuilder.cs" />
+    <Compile Include="Controllers\GameController.cs" />
+    <Compile Include="Factories\PlayerFactory.cs" />
+    <Compile Include="Models\Move.cs" />
+    <Compile Include="Models\Position.cs" />
+    <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\Piece.cs" />
+    <Compile Include="Models\Board.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Setup\GameSetup.cs" />
+    <Compile Include="Singleton\GameEventManager.cs" />
+    <Compile Include="States\PlayerTurnState.cs" />
+    <Compile Include="States\GameOverState.cs" />
+    <Compile Include="States\IGameState.cs" />
+    <Compile Include="Strategies\SmartMoveStrategy.cs" />
+    <Compile Include="Strategies\RandomMoveStrategy.cs" />
+    <Compile Include="Strategies\IStrategy.cs" />
+    <Compile Include="Utilities\InputValidator.cs" />
+    <Compile Include="ViewModels\GameViewModel.cs" />
+    <Compile Include="Views\ConsoleView.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

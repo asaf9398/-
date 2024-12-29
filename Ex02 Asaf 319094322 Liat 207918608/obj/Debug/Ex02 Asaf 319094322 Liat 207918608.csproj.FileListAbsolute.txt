@@ -1,0 +1,6 @@
+C:\Projects\Ex02 Asaf 319094322 Liat 207918608\bin\Debug\Ex02 Asaf 319094322 Liat 207918608.exe
+C:\Projects\Ex02 Asaf 319094322 Liat 207918608\bin\Debug\Ex02 Asaf 319094322 Liat 207918608.pdb
+C:\Projects\Ex02 Asaf 319094322 Liat 207918608\obj\Debug\Ex02 Asaf 319094322 Liat 207918608.csproj.AssemblyReference.cache
+C:\Projects\Ex02 Asaf 319094322 Liat 207918608\obj\Debug\Ex02 Asaf 319094322 Liat 207918608.csproj.CoreCompileInputs.cache
+C:\Projects\Ex02 Asaf 319094322 Liat 207918608\obj\Debug\Ex02 Asaf 319094322 Liat 207918608.exe
+C:\Projects\Ex02 Asaf 319094322 Liat 207918608\obj\Debug\Ex02 Asaf 319094322 Liat 207918608.pdb

@@ -1,0 +1,94 @@
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Cache files
+.vs/
+.idea/
+*.cache
+
+# Logs
+*.log
+
+# Configuration files
+appsettings.*.json
+*.config
+
+# Backup and temporary files
+*.tmp
+*.bak
+*.swp
+*.swm
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+.idea/**
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# NUnit
+TestResult.xml
+*.TestResults/
+
+# Coverage results
+*.coverage
+*.coveragexml
+
+# Debug and release
+*.pdb
+*.mdb
+*.ilk
+*.idb
+*.tlog
+*.log
+
+# Package management
+*.nupkg
+packages/
+
+# Generated files
+*.designer.cs
+*.g.cs
+*.g.i.cs
+*.sln.ide
+*.lock.json
+
+# JetBrains Rider
+.idea/
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+
+# Python (if Python tools are used)
+__pycache__/
+*.py[cod]
+
+# NuGet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Azure
+.localhistory/
+*.publishsettings
+
+# Others
+*.sln.ide
+*.swp
+*.tmp
